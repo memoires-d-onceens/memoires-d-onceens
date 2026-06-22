@@ -1,0 +1,23 @@
+@keyframes fade {
+    from{opacity: 0;transform: translate(-2rem);}
+    to{opacity: 1;transform: translate(0rem);}
+}
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    animation: fade 2s ease-in-out;
+    margin: 1rem 5rem 0 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+  font-size: clamp(2rem, 5vw, 4rem);
+}
+h2 {
+  font-size: clamp(1rem, 4vw, 3rem);
+}
+audio {
+    width: min(100%, 500px);
+}
